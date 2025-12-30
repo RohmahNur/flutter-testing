@@ -1,16 +1,13 @@
-# flutter_testing
+Hasil Pengujian
 
-A new Flutter project.
+Pengujian aplikasi dilakukan menggunakan framework Flutter Test dengan dua jenis pengujian, yaitu Unit Test dan Widget Test.
 
-## Getting Started
+1. Unit Test
+   - Menguji fungsi logika pada kelas kalkulator.
+   - Hasil pengujian menunjukkan fungsi berjalan sesuai dengan spesifikasi.
 
-This project is a starting point for a Flutter application.
+2. Widget Test
+   - Menguji perubahan tampilan pada widget OnOffWidget.
+   - Saat tombol ditekan, teks berhasil berubah dari OFF menjadi ON.
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+Berdasarkan hasil pengujian, seluruh test berhasil dijalankan tanpa error dengan status **All tests passed**.
