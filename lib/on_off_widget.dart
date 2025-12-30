@@ -23,7 +23,7 @@ class _OnOffWidgetState extends State<OnOffWidget> {
               key: const Key('toggleButton'),
               onPressed: () {
                 setState(() {
-                  isOn = true;
+                  isOn = !isOn;
                 });
               },
               child: const Text('Toggle'),
